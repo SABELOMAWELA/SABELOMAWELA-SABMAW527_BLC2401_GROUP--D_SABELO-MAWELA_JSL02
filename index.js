@@ -38,7 +38,7 @@ const addNewGoal = () => {
     for(let i= 0 ;i < arrayline.length; i++)
     { let spacetrim=goalInput.trim();
         if (arrayline[i].textContent.toUpperCase() === spacetrim.toUpperCase()){
-        if (alert("bruno")===undefined){
+        if (alert("We have detected duplication of a existing goal ")===undefined){
             document.querySelector('#goalInput').value="";
 
         }
